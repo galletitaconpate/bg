@@ -13,3 +13,5 @@
 ``` galletita ; ping -c 1 burp.oastify.com ```
 
 ``` subfinder -d X | /home/kali/go/bin/httpx -u -status-code -title -tech-detect -follow-redirects -timeout 5 ```
+
+``` site:*.com.ar "bug bounty" OR "vulnerability disclosure" OR "security policy" ```

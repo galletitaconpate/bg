@@ -6,7 +6,7 @@
 
 `/home/kali/go/bin/httpx -l FC -ss -srd /media/sf_Test/FC/screenshots/ --title --status-code -o /media/sf_Test/FC_httpx.txt `
 
-`/home/kali/go/bin/httpx -l moduk -proxy http://192.168.0.131:1337 `
+`/home/kali/go/bin/httpx -l FC -proxy http://192.168.0.131:1337 `
 
 ## XSS
 ```  : /"><script>alert(document.cookie)</script> ```

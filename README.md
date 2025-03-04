@@ -4,7 +4,7 @@
 
 ## HTTPX 
 
-```/home/kali/go/bin/httpx -l X -ss ```
+```/home/kali/go/bin/httpx -l FC -ss -srd /media/sf_Test/FC/screenshots/ --title --status-code -o /media/sf_Test/FC_httpx.txt ```
 
 ## XSS
 ```  : /"><script>alert(document.cookie)</script> ```

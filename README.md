@@ -23,11 +23,10 @@
 ## FUZZ 
 
 ```
-ffuf -w /media/sf_Test/_CHANGEME/_CHANGEME.txt:DOMAINSFUZZ \
+ffuf -w /media/sf_Test/_CHANGEME/CHANGEME.txt:DOMAINSFUZZ \
      -w /media/sf_Test/https.txt:SCHEMEFUZZ \
      -w /media/sf_Test/filesoptmized.txt:FILESFUZZ \
-     -u "SCHEMEFUZZ://DOMAINSFUZZ/FILESFUZZ" \ 
-     -x "http://192.168.0.131:1337"
+     -u "SCHEMEFUZZ://DOMAINSFUZZ/FILESFUZZ" -x "http://192.168.0.131:1337" -t 500
 ```
 
 ## XSS

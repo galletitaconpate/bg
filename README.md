@@ -8,6 +8,9 @@
 ## Basic Auth
 `hydra -l basic-auth-user -P 2023-200_most_used_passwords.txt 94.237.51.23 http-get / -s 42849`
 
+## gobuster 
+`gobuster vhost -u http://inlanefreight.htb:35380/ -w SecLists/Discovery/DNS/subdomains-top1million-20000.txt --append-domain -t 500`
+
 ## HTTPX 
 
 `/home/kali/go/bin/httpx -l FC -ss -srd /media/sf_Test/FC/screenshots/ --title --status-code -o /media/sf_Test/FC_httpx.txt `
